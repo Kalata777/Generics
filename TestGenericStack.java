@@ -7,8 +7,7 @@ public class TestGenericStack {
 		// Create a Scanner
 		Scanner input = new Scanner(System.in);
 		GenericStack<String> stack1 = new GenericStack<>();
-		//System.out.println(stack1.getSize());
-		//System.out.println(stack1.isEmpty());
+	
 		for (int i = 0; i < 5; i++) {
 			stack1.push(input.nextLine());
 
